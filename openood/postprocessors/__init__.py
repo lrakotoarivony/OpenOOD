@@ -51,3 +51,4 @@ from .pca_nre_postprocessor import PCANREPostprocessor
 from .grood import GrOODPostprocessor
 from .vra_postprocessor import VRAPostprocessor
 from .cfood_postprocessor import CFOODPostprocessor
+from .mme_postprocessor import MMEPostprocessor

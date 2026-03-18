@@ -18,7 +18,7 @@ from openood.postprocessors import (
     T2FNormPostprocessor, ReweightOODPostprocessor, fDBDPostprocessor,
     AdaScalePostprocessor, IODINPostprocessor, NCIPostprocessor,
     PCANREPostprocessor, CFOODPostprocessor, VRAPostprocessor,
-    GrOODPostprocessor)
+    GrOODPostprocessor, MMEPostprocessor)
 from openood.utils.config import Config, merge_configs
 
 postprocessors = {
@@ -75,6 +75,7 @@ postprocessors = {
     'grood': GrOODPostprocessor,
     'vra': VRAPostprocessor,
     'cfood': CFOODPostprocessor,
+    'mme': MMEPostprocessor
 }
 
 link_prefix = 'https://raw.githubusercontent.com/Jingkang50/OpenOOD/main/configs/postprocessors/'

@@ -255,6 +255,7 @@ distance: f4d5b3 -->
 > - [x] [![adascale-l](https://img.shields.io/badge/arXiv'25-AdaScale\_L-fdd7e6?style=for-the-badge)](https://github.com/sudarshanregmi/adascale) &nbsp;&nbsp; ![postprocess]
 > - [x] [![ascood](https://img.shields.io/badge/arXiv'25-iODIN-fdd7e6?style=for-the-badge)](https://github.com/sudarshanregmi/ASCOOD) &nbsp;&nbsp; ![postprocess]
 > - [x] [![nci](https://img.shields.io/badge/CVPR'25-NCI-fdd7e6?style=for-the-badge)](https://arxiv.org/pdf/2311.01479) &nbsp;&nbsp; ![postprocess]
+> - [x] [![mme](https://img.shields.io/badge/BMVC'25-MME-fdd7e6?style=for-the-badge)](https://github.com/lrakotoarivony/mme) &nbsp;&nbsp; ![postprocess]
 
 > Training Methods (14):
 > - [x] [![confbranch](https://img.shields.io/badge/arXiv'18-ConfBranch-fdd7e6?style=for-the-badge)](https://github.com/uoguelph-mlrg/confidence_estimation) &nbsp;&nbsp; ![preprocess] &nbsp; ![training]

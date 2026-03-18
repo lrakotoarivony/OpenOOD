@@ -46,6 +46,7 @@ from .relation_postprocessor import RelationPostprocessor
 from .pca_nre_postprocessor import PCANREPostprocessor
 from .grood import GrOODPostprocessor
 from .vra_postprocessor import VRAPostprocessor
+from .mme_postprocessor import MMEPostprocessor
 
 
 def get_postprocessor(config: Config):
@@ -96,6 +97,7 @@ def get_postprocessor(config: Config):
         'pca_nre': PCANREPostprocessor,
         'grood': GrOODPostprocessor,
         'vra': VRAPostprocessor,
+        'mme': MMEPostprocessor
     }
 
     return postprocessors[config.postprocessor.name](config)
